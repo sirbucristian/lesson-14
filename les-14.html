@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>lesson-14</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <form>
+        <input id="firstNumber" type="text" size="3"></input>
+        * <a> x<sup>2</sup></a>&plusmn;
+        <input  id="secondNumber" type="text" size="3"></input> * <a> x </a>&plusmn;
+        <input id="thirdNumber" type="text" size="3"></input> = <a>0</a></br><small>(Enter coefficients)</small></a></br></br>
+        <input id="count" type="button" value="Counting Square Discriminant" onclick="equation()"></input></br></br>
+        <a>Discriminant is: </a> 
+        <input id="answer" type="text" size="6" readonly="readonly"></input></br></br>
+        
+        </br>
+        <a>Log</a></br><input id="secondAnswer" type="text" size="60" readonly="readonly"></input></br>
+        </br>
+        <a>Roots</a><input id="thirdAnswer" type="text" readonly="readonly" style="width:100%;"></input></br>
+        <input type="button" value="Clear" onclick="cancel()"></input></br>
+        
+        </form>
+    <script src="les-14.js"></script>
+</body>
+</html>
